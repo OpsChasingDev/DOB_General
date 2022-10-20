@@ -1,0 +1,10 @@
+- MacOS is UNIX based
+- Linux was developed independently of UNIX and is *not* UNIX based
+- MacOS and Linux are similar operating systems because they are both POSIX Compliant
+  - POSIX = Portable Operating System Interface (most popular among OS standards)
+- OS standards ensured different operating systems could be used for different devices without breaking or changing the way it works with hardware and certain softwawre components
+- 4 layers to all computers:
+  - Hardware
+  - Kernel (OS)
+  - Application layer (OS)
+  - User apps
