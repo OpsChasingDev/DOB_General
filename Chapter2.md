@@ -27,3 +27,9 @@
 - /etc is a directory that was originally intended for 'et cetera' or everything else, but this has become the main directory for any settings to apps or system configs that need to be changed
 - for the most part, all of the above directories are not things are you directly interfacing with; rather, package managers or applications will be manipulating things in these directories
 - hidden files and folders in Linux simply have their names prepended with a '.'; these are typically system or application generated but can also be user created when necessary
+
+## Linux CLI
+- beginning information on the prompt lines shows you the user and computer you are operating on in the CLI
+- the tilde '~' character represents a shortcut for the Home directory
+- if the last character of the prompt line is a '$', then we are operating under the normal user account permissions
+- if the last character of the prompt line is a '#', then we are operating under the root account
