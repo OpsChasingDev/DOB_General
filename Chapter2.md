@@ -24,4 +24,5 @@
 - programs that are available to each user on the system but are unpacked in such a way where their files are not split into the typical bin/lib locations will be stored in the /opt folder - this will be the case for things like IDEs
 - /media is a directory where external storage devices are mounted to when connected to the system
 - /mnt will be used to mounting a file system
+- /etc is a directory that was originally intended for 'et cetera' or everything else, but this has become the main directory for any settings to apps or system configs that need to be changed
 - for the most part, all of the above directories are not things are you directly interfacing with; rather, package managers or applications will be manipulating things in these directories
