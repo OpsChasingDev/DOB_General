@@ -26,3 +26,4 @@
 - /mnt will be used to mounting a file system
 - /etc is a directory that was originally intended for 'et cetera' or everything else, but this has become the main directory for any settings to apps or system configs that need to be changed
 - for the most part, all of the above directories are not things are you directly interfacing with; rather, package managers or applications will be manipulating things in these directories
+- hidden files and folders in Linux simply have their names prepended with a '.'; these are typically system or application generated but can also be user created when necessary
