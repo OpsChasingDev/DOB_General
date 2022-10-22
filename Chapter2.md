@@ -22,3 +22,6 @@
 - programs that need to be specific for a single user will be stored in the /home folder
 - programs that are available to each user on the system and have their unpacking handled in the traditional split of binaries and libraries will be stored in /usr/local, and this will be the case for most third party applications
 - programs that are available to each user on the system but are unpacked in such a way where their files are not split into the typical bin/lib locations will be stored in the /opt folder - this will be the case for things like IDEs
+- /media is a directory where external storage devices are mounted to when connected to the system
+- /mnt will be used to mounting a file system
+- for the most part, all of the above directories are not things are you directly interfacing with; rather, package managers or applications will be manipulating things in these directories
