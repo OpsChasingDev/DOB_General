@@ -17,6 +17,8 @@
 - /sbin refers to system binaries that require elevated privileges in order to run
 - /home is the user-specific folder granted to each user on the system and separate from every other user's home folder
 - /usr is a directory that refers to the old system of housing user data before the home folder came into being, and this still exists for historical reasons
-- /usr/lib, /usr/bin, and /usr/sbin store binaries and libraries that are specific to user accounts, but these programs are available to all users on the system
+- /usr/lib, /usr/bin, and /usr/sbin store binaries and libraries that are system wide, nearly identical in every way to the binaries and libraries stored in the root /bin and /lib* folders
+- when system commands are executed in the terminal, they are most often executed from the /usr/bin location
 - programs that need to be specific for a single user will be stored in the /home folder
-- programs that are available to each user on the system but are unpacked in such a way where their files are not split into the typical bin/lib locations will be stored in the /opt folder
+- programs that are available to each user on the system and have their unpacking handled in the traditional split of binaries and libraries will be stored in /usr/local, and this will be the case for most third party applications
+- programs that are available to each user on the system but are unpacked in such a way where their files are not split into the typical bin/lib locations will be stored in the /opt folder - this will be the case for things like IDEs
