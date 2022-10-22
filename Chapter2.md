@@ -33,3 +33,9 @@
 - the tilde '~' character represents a shortcut for the Home directory
 - if the last character of the prompt line is a '$', then we are operating under the normal user account permissions
 - if the last character of the prompt line is a '#', then we are operating under the root account
+
+## Package Managers
+- most commonly using built-in package managers to install/remove/manage software on Linux distributions
+- Debian-based distros such as Debian and Ubuntu use "apt" and "apt-get" which is built in; "snap" is also available (fka 'snappy') but is not as ideal based on its less efficient dependency handling
+- Red Hat-based distros such as RHEL and CentOS use "yum"
+- alternative ways of installing software include using other package managers, adding other repositories to existing package managers, or using the Linux software installation tool included in the distro
