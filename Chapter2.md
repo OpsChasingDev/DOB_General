@@ -39,3 +39,6 @@
 - Debian-based distros such as Debian and Ubuntu use "apt" and "apt-get" which is built in; "snap" is also available (fka 'snappy') but is not as ideal based on its less efficient dependency handling
 - Red Hat-based distros such as RHEL and CentOS use "yum"
 - alternative ways of installing software include using other package managers, adding other repositories to existing package managers, or using the Linux software installation tool included in the distro
+
+## Linux Users and Groups
+- when a new user is created, Linux also creates a group wtih the same name and sets that as the primary group for the newly created user
