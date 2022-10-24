@@ -42,3 +42,6 @@
 
 ## Linux Users and Groups
 - when a new user is created, Linux also creates a group wtih the same name and sets that as the primary group for the newly created user
+- difference between 'adduser' and 'useradd' (and other command pairs like this)
+  - use 'adduser' for interactive mode (more user friendly with prompts)
+  - use 'useradd' for script mode
