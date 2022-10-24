@@ -45,3 +45,9 @@
 - difference between 'adduser' and 'useradd' (and other command pairs like this)
   - use 'adduser' for interactive mode (more user friendly with prompts)
   - use 'useradd' for script mode
+- sudo usermod -g admin tom
+  -  sets the default group for user 'tom' to 'admin'
+-  sudo usermod -G admin tom
+   -  replaces the list of all existing secondary group membership for user 'tom' with the group 'admin'
+-  sudo usermod -aG admin tom
+   -  adds group 'admin' as a secondary group for user 'tom' without removing all existing secondary group memberships for 'tom'
