@@ -51,3 +51,6 @@
    -  replaces the list of all existing secondary group membership for user 'tom' with the group 'admin'
 -  sudo usermod -aG admin tom
    -  adds group 'admin' as a secondary group for user 'tom' without removing all existing secondary group memberships for 'tom'
+
+## Files/Permissions
+-  'ls -l' to list permissions for files in a directory
