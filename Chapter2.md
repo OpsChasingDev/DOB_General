@@ -54,3 +54,15 @@
 
 ## Files/Permissions
 -  'ls -l' to list permissions for files in a directory
+-  each file has a user owner and group owner
+-  sudo chown tom:admin perms.txt
+   -  adds owner permissions to user 'tom' and group 'admin' on the file 'perms.txt'
+
+## More Basic Commands
+- piping output to other commands
+  - ls /var/log/syslog | less
+  - ls /usr/bin | grep java
+
+## Bash Scripting
+- Bash is an improved version of the original Bourne Shell
+  - stands for "Bourne again shell"
