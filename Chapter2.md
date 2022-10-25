@@ -66,3 +66,5 @@
 ## Bash Scripting
 - Bash is an improved version of the original Bourne Shell
   - stands for "Bourne again shell"
+- 'shebang' line is a line in a script used to specify which shell to execute the command in
+  - #!/bin/bash
