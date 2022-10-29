@@ -9,3 +9,6 @@
 
 ### EXERCISE 2: Bash Script - Install Java
 - see file 'install-java.sh'
+
+### EXERCISE 3: Bash Script - User Processes
+- see file 'user-proc.sh'
