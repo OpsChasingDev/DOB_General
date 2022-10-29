@@ -6,5 +6,6 @@
 # each of the above checks must print their own relevant messages
 # sucess is measured by the third check being true such that java v11 or higher was installed
 
-sudo apt install openjdk-11-jre-headless
-sudo apt install openjdk-18-jre-headless
+#!/bin/bash
+apt install -y default-jre
+java -version 2>&1 >/dev/null | grep "java version\|openjdk version" | awk '{print substr($3,2,2)}'
