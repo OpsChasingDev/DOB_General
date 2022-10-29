@@ -8,4 +8,16 @@
 
 #!/bin/bash
 apt install -y default-jre
-java -version 2>&1 >/dev/null | grep "java version\|openjdk version" | awk '{print substr($3,2,2)}'
+
+JavaVersion=$(java -version 2>&1 >/dev/null | grep "java version\|openjdk version" | awk '{print substr($3,2,2)}')
+
+if [ "$JavaVersion" == "" ]
+then
+ echo "No version of java found"
+elif [ "$JavaVersion" == "1." ]
+then
+ echo "A version of java older than 11 is installed"
+elif [ "$JavaVersion" -ge 11 ]
+then
+ echo "Java version 11 or greater installed"
+fi
