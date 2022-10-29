@@ -6,3 +6,6 @@
 - Package manager 'apt'
 - Installed Vim with 'sudo apt install vim'
 - Default shell is bash, found by running 'echo $SHELL' in terminal
+
+### EXERCISE 2: Bash Script - Install Java
+- see file 'install-java.sh'
