@@ -12,3 +12,6 @@
 
 ### EXERCISE 3: Bash Script - User Processes
 - see file 'user-proc.sh'
+
+### EXERCISE 4: Bash Script - User Processes Sorted
+- see file 'user-proc-sort.sh'
