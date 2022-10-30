@@ -27,3 +27,6 @@
 
 ### EXERCISE 8: Bash Script - Node App with Log Directory
 - see file 'node-app.sh'
+
+### EXERCISE 9: Bash Script - Node App with Service User
+- see file 'node-app.sh'
