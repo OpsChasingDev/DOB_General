@@ -24,3 +24,6 @@
 
 ### EXERCISE 7: Bash Script - Node App Check Status
 - see file 'node-app.sh'
+
+### EXERCISE 8: Bash Script - Node App with Log Directory
+- see file 'node-app.sh'
