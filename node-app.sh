@@ -11,8 +11,9 @@ NpmVersion=$(npm --version)
 echo "Installed Node version $NodeVersion"
 echo "Installed Npm version $NpmVersion"
 
-# insatll curl
+# install curl and netstat
 apt install curl -y
+apt install net-tools -y
 
 # make new directory for project files
 mkdir /etc/NodeJS
@@ -31,6 +32,10 @@ export APP_ENV=dev
 export DB_PWD=mysecret
 export DB_USER=myuser
 
-# running NodeJS application
+# running NodeJS application in background
 npm install
 node server.js &
+
+# show nodejs process running and is listening on port 3000
+ps aux | grep node
+netstat -lp | grep :3000
