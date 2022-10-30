@@ -21,3 +21,6 @@
 
 ### EXERCISE 6: Bash Script - Start Node App
 - see file 'node-app.sh'
+
+### EXERCISE 7: Bash Script - Node App Check Status
+- see file 'node-app.sh'
