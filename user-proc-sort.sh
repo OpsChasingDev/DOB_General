@@ -6,5 +6,12 @@ read sort
 echo -n "Number of results to display?"
 read lines
 
-echo $sort
-echo $lines
+if [ "$sort" = "m" ]
+then
+ echo "sorting by memory"
+elif [ "$sort" = "c" ]
+then
+ echo "sorting by cpu"
+else
+ echo "no input was provided"
+fi
