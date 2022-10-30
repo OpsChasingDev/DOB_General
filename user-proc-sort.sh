@@ -17,7 +17,7 @@ then
 
  echo "sorting by memory"
 
- ps aux --sort -rss | grep 'robert'
+ ps aux --sort -%mem | grep 'robert' | head -n $lines
 
 elif [ "$sort" = "c" ]
 
@@ -25,11 +25,15 @@ then
 
  echo "sorting by cpu"
 
- ps aux --sort -%cpu | grep 'robert'
+ ps aux --sort -%cpu | grep 'robert' | head -n $lines
 
 else
 
- echo "no input was provided"
+ echo "Input must be a 'c' or 'm'"
 
 fi
+
+
+
+
 
