@@ -22,3 +22,15 @@ curl https://node-envvars-artifact.s3.eu-west-2.amazonaws.com/bootcamp-node-envv
 
 # extract downlaoded artifacts
 tar -xf /etc/NodeJS/bootcamp-node-envvars-project-1.0.0.tgz -C /etc/NodeJS/
+
+# nav to unpacked directory
+cd /etc/NodeJS/package
+
+# set env variables
+export APP_ENV=dev
+export DB_PWD=mysecret
+export DB_USER=myuser
+
+# running NodeJS application
+npm install
+node server.js &
