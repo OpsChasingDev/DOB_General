@@ -18,3 +18,6 @@
 
 ### EXERCISE 5: Bash Script - Number of User Processes Sorted
 - see file 'user-proc-sort.sh'
+
+### EXERCISE 6: Bash Script - Start Node App
+- see file 'node-app.sh'
