@@ -15,3 +15,6 @@
 
 ### EXERCISE 4: Bash Script - User Processes Sorted
 - see file 'user-proc-sort.sh'
+
+### EXERCISE 5: Bash Script - Number of User Processes Sorted
+- see file 'user-proc-sort.sh'
