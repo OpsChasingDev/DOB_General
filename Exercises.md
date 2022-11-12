@@ -33,5 +33,9 @@
 
 ## 3 - Version Control with Git
 - for all exercises, see Gitlab repo:
-[Gitlab Repo]([https://](https://gitlab.com/opschasingdev_root/exercise-git))
+[Gitlab Repo](https://gitlab.com/opschasingdev_root/exercise-git)
 - work was done with a small amount of Gitlab UI editor but mostly git CLI on the Linux Ubuntu VM created in Lesson 2
+
+## 4 - Build Tools and Package Manager Tools
+#### EXERCISE 0: Clone project and create own git repository
+- 
