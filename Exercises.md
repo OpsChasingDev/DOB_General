@@ -38,4 +38,10 @@
 
 ## 4 - Build Tools and Package Manager Tools
 #### EXERCISE 0: Clone project and create own git repository
-- 
+- cloned repo locally through git cli in IntelliJ IDEA
+- removed .git link from cloned repo (literally removed .git)
+- initialized new git for directory locally
+- created new Gitlab repo
+- created new SSH key pairing to authenticate local system with Gitlab account
+- pushed local git repo to remote
+[Gitlab Repo](https://gitlab.com/opschasingdev_root/java-gradle-app)
