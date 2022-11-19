@@ -45,3 +45,7 @@
 - created new SSH key pairing to authenticate local system with Gitlab account
 - pushed local git repo to remote
 [Gitlab Repo](https://gitlab.com/opschasingdev_root/java-gradle-app)
+
+## 7 - Containers with Docker
+- for in-lesson project, see GitHub repo:
+[GitHub Repo](https://github.com/OpsChasingDev/DOB_Developing-with-Docker)
