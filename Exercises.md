@@ -48,5 +48,6 @@
 
 ## 7 - Containers with Docker
 - all projects were done in a Ubuntu linux VM using Oracle VirtualBox (Windows computer used at home is not a professional/enterprise edition of Windows and therefore cannot run the virtualization technology required to operate with Docker)
+  - update to the above: after running the MongoDB docker image, I discovered problems rooted at the fact that MongoDB cannot utilize the AVX technology on my local system's processor while already running on the VirtualBox VM - I shall need to get another work environment to continue the project
 - for in-lesson project, see GitHub repo:
 [GitHub Repo](https://github.com/OpsChasingDev/DOB_Developing-with-Docker)
