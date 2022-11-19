@@ -47,5 +47,6 @@
 [Gitlab Repo](https://gitlab.com/opschasingdev_root/java-gradle-app)
 
 ## 7 - Containers with Docker
+- all projects were done in a Ubuntu linux VM using Oracle VirtualBox (Windows computer used at home is not a professional/enterprise edition of Windows and therefore cannot run the virtualization technology required to operate with Docker)
 - for in-lesson project, see GitHub repo:
 [GitHub Repo](https://github.com/OpsChasingDev/DOB_Developing-with-Docker)
