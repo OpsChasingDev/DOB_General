@@ -50,3 +50,6 @@
 - all projects were done on my local Windows 11 21H2 system after setting up WSL 2
 - for in-lesson project, see GitHub repo:
 [GitHub Repo](https://github.com/OpsChasingDev/DOB_Developing-with-Docker)
+#### EXERCISES ####
+- see repository:
+[GitHub Repo](https://github.com/OpsChasingDev/DOB_Docker-Exercises)
